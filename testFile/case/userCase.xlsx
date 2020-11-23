@@ -1,0 +1,4 @@
+case_name	path	query	method
+login	/login	name=xiaoming&pwd=111	post
+login_error	/login	name=xiaoming&pwd=111222	post
+login_null	/login	name=xiaoming&pwd=	post
